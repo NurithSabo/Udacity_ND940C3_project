@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary_">#07C2AA</color>
+    <color name="colorPrimaryDark_">#004349</color>
+    <color name="colorAccent">#ff8a80</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <color name="colorPrimary__">#ffccbc</color>
+    <color name="colorPrimaryLight">#ffffee</color>
+    <color name="colorPrimaryDark__">#cb9b8c</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="mainBack">#fbe9e7</color>
+    <color name="darkBrown_">#8D6A60</color>
+
+
+    <color name="colorPrimary">#ff8a80</color>
+    <color name="primaryLightColor">#ffbcaf</color>
+    <color name="colorPrimaryDark">#c85a54</color>
+    <color name="secondaryColor">#5d4037</color>
+    <color name="darkBrown">#8b6b61</color>
+    <color name="secondaryDarkColor">#321911</color>
+    <color name="androidGreen">#A4C638</color>
+</resources>

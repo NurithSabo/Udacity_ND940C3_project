@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@+id/title"
+            android:layout_width = "wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="parent"
+            android:text = "A letőtés állapottya"
+            android:scaleX="0.1"
+            android:scaleY="0.1" />
+
+        <Constraint android:id="@+id/file_name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="File name: "
+            android:scaleX="0.1"
+            android:scaleY="0.1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+            <Constraint android:id="@+id/status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:scaleX="0.1"
+            android:scaleY="0.1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+            <Constraint android:id="@+id/file_name_content"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:scaleX="0.1"
+             android:scaleY="0.1"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent" />
+
+            <Constraint android:id="@+id/status_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:scaleX="0.1"
+            android:scaleY="0.1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <Constraint android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="@android:string/ok"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:scaleX="0.1"
+            android:scaleY="0.1"/>
+
+        <Constraint android:id="@+id/kep"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="parent"
+            android:scaleX="0.1"
+            android:scaleY="0.1"/>
+
+    </ConstraintSet>
+
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint android:id="@id/title"/>
+        <Constraint android:id="@id/ok_button" />
+        <Constraint android:id="@id/status_label" />
+        <Constraint android:id="@id/file_name_content" />
+        <Constraint android:id="@id/status_content" />
+        <Constraint android:id="@+id/file_name_label"/>
+        <Constraint android:id="@+id/kep"/>
+    </ConstraintSet>
+
+
+    <Transition
+        app:autoTransition = "animateToEnd"
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@+id/start"
+        app:duration="5000" />
+
+</MotionScene>

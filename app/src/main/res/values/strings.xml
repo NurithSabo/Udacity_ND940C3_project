@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Bogi\'s ND940C3-Project</string>
+    <string name="app_description">Download files from Internet</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="notification_title">ND940C3 file download: </string>
+    <string name="notification_description">The desired repository is downloaded</string>
+    <string name="notification_button">See more</string>
+
+    <string name="button_name">Click me</string>
+    <string name="button_loading">We are loading </string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="glide">Glide - Image Loading Library by Bump Tech</string>
+    <string name="udacity">LoadApp - Current repository by Udacity</string>
+    <string name="retrofit">Retrofit - Type-safe HTTP client for Android and Java by Square, Inc</string>
+
+    <string name="button_text">DOWNLOAD</string>
+    <string name="loading">LOADING</string>
+    <string name="downloaded">DOWNLOADED</string>
+    <string name="notification_channel_id">69</string>
+    <string name="Details">Details</string>
+    <string name="ToastText">Please select a link, or type a valid URL</string>
+    <string name="detail_title">Download status</string>
+    <string name="download_pic">android download icon</string>
+    <string name="download_picture">Android download picture</string>
+    <string name="status_content_text_succ">Download successful</string>
+    <string name="status_content_text_fail">Download failed</string>
+</resources>
